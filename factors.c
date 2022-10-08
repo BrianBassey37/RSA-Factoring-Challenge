@@ -69,8 +69,8 @@ void factors(mpz_t n)
 
 int main(char **av)
 {
-    if (av[1] != NULL)
-	   file_input(av[1]);
+if (av[1] != NULL)
+	file_input(av[1]);
 
-	return (0);
+return (0);
 }
